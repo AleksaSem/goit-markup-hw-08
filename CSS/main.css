@@ -801,10 +801,7 @@ header .container {
 }
 
 .team-profile {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 30px;
   width: 450px;
   height: 162px;
 }
@@ -1218,6 +1215,7 @@ header .container {
 @media screen and (max-width: 1199px) {
   .footer-nav {
     text-align: center;
+    margin-bottom: 60px;
   }
 }
 
@@ -1290,7 +1288,6 @@ header .container {
   .footer-nav__title,
   .form-container__title,
   .section-apps__description {
-    margin-top: 60px;
     text-align: center;
   }
 }
@@ -1300,12 +1297,6 @@ header .container {
   .form-container__title,
   .section-apps__description {
     text-align: center;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1199px) {
-  .form-container__title {
-    margin-top: 60px;
   }
 }
 
@@ -1323,6 +1314,7 @@ header .container {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 60px;
   }
 }
 
@@ -1409,8 +1401,8 @@ header .container {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  padding: 10px 62px 10px 29px;
-  width: 200px;
+  padding: 10px 28px 10px 10px;
+  width: 211px;
   background-color: var(--accent-text-color);
   border-radius: 4px;
   color: var(--bg-icons);
